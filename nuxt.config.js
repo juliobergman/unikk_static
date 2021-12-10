@@ -21,7 +21,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['plugins/i18n.js', 'plugins/bus.js'],
+  plugins: ['plugins/i18n.js', 'plugins/bus.js', 'plugins/device.server.js'],
   router: {
     middleware: ['i18n', 'navigator'],
   },
@@ -52,8 +52,17 @@ export default {
     theme: {
       dark: false,
       themes: {
+        light: {
+          primary: '#272727',
+          accent: colors.grey.darken3,
+          secondary: colors.amber.darken3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3,
+        },
         dark: {
-          primary: colors.blue.darken2,
+          primary: '#272727',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,

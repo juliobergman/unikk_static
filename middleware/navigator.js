@@ -14,17 +14,19 @@ export default function ({
   const navigatorDark = {
     index: true,
     about: false,
-    investment: true,
+    investment: false,
     geofocus: true,
-    contact: true,
+    geofocus2: true,
+    contact: false,
   }
 
   const navigatorDarkMenu = {
     index: true,
     about: true,
-    investment: true,
+    investment: false,
     geofocus: true,
-    contact: true,
+    geofocus2: true,
+    contact: false,
   }
 
   const navigatorDarkLogo = {
@@ -32,7 +34,8 @@ export default function ({
     about: false,
     investment: true,
     geofocus: true,
-    contact: true,
+    geofocus2: true,
+    contact: false,
   }
 
   colorNavs = navigatorDark[route.name]

@@ -2,6 +2,7 @@
 export const state = () => ({
   locales: ['en', 'de', 'es'],
   locale: 'en',
+  device: {},
   darknav: true,
   darknavmenu: true,
   darknavlogo: true,
@@ -20,6 +21,9 @@ export const mutations = {
       state.locale = locale
     }
   },
+  setDevice(state, value) {
+    state.device = value
+  },
   setDarkNav(state, status) {
     state.darknav = status
   },
@@ -36,10 +40,10 @@ export const mutations = {
     const RouteDepth = [
       'index',
       'about',
-      // 'investment',
-      // 'geofocus',
-      // 'geofocus-2',
-      // 'contact',
+      'investment',
+      'geofocus',
+      'geofocus2',
+      'contact',
     ]
 
     const PreviousDepth = state.currentdepth
