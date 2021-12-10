@@ -12,7 +12,12 @@
 <script>
 export default {
   props: {
-    fill: { type: String, default: 'white' },
+    dark: { type: Boolean, default: true },
+  },
+  computed: {
+    fill() {
+      return this.dark ? '#ffffff' : '#121212'
+    },
   },
 }
 </script>

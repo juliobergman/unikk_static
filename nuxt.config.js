@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - unikk_static',
-    title: 'unikk_static',
+    titleTemplate: '%s - Unikk Ventures AG',
+    title: 'Unikk Ventures AG',
     htmlAttrs: {
       lang: 'en',
     },
@@ -23,7 +23,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['plugins/i18n.js', 'plugins/bus.js'],
   router: {
-    middleware: ['i18n'],
+    middleware: ['i18n', 'navigator'],
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -2,7 +2,16 @@
 export const state = () => ({
   locales: ['en', 'de', 'es'],
   locale: 'en',
+  darknav: true,
+  darknavmenu: true,
+  darknavlogo: true,
+  currentdepth: 0,
+  transition: 'slide-down',
+  navprev: 'index',
+  navnext: 'about',
 })
+
+export const getters = {}
 
 export const mutations = {
   SET_LANG(state, locale) {
@@ -11,4 +20,51 @@ export const mutations = {
       state.locale = locale
     }
   },
+  setDarkNav(state, status) {
+    state.darknav = status
+  },
+  setDarkNavMenu(state, status) {
+    state.darknavmenu = status
+  },
+  setDarkNavLogo(state, status) {
+    state.darknavlogo = status
+  },
+  navigation(state, route) {
+    state.navnext = false
+    state.navprev = false
+
+    const RouteDepth = [
+      'index',
+      'about',
+      // 'investment',
+      // 'geofocus',
+      // 'geofocus-2',
+      // 'contact',
+    ]
+
+    const PreviousDepth = state.currentdepth
+    state.currentdepth = route.meta[0].depth
+
+    if (PreviousDepth < state.currentdepth) {
+      state.transition = 'slide-up'
+    }
+    if (PreviousDepth > state.currentdepth) {
+      state.transition = 'slide-down'
+    }
+
+    const PrevStep = state.currentdepth - 1
+
+    const RouteCount = RouteDepth.length
+
+    const NextStep = state.currentdepth + 1
+    if (NextStep < RouteCount) {
+      state.navnext = RouteDepth[state.currentdepth + 1]
+    }
+
+    if (PrevStep >= 0) {
+      state.navprev = RouteDepth[state.currentdepth - 1]
+    }
+  },
 }
+
+export const actions = {}

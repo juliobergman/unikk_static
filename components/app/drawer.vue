@@ -22,7 +22,7 @@
             </v-list-item-icon>
 
             <v-list-item-content>
-              <v-list-item-title>{{ lang }}</v-list-item-title>
+              <v-list-item-title>{{ $t('drawer.language') }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </template>
@@ -30,7 +30,7 @@
           <v-list-item
             v-for="language in languages"
             :key="language.name"
-            @click="setLanguage(language)"
+            @click="setLanguage(language.value)"
           >
             <v-list-item-title>{{ language.name }}</v-list-item-title>
           </v-list-item>
@@ -52,7 +52,7 @@
         </v-list-item-icon>
 
         <v-list-item-content>
-          <v-list-item-title>{{ $t(item.to) }}</v-list-item-title>
+          <v-list-item-title>{{ $t('drawer.' + item.to) }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -64,7 +64,6 @@ export default {
   data: () => ({
     drawer: false,
     selected: 0,
-    lang: 'English',
     languages: [
       { name: 'English', value: 'en' },
       { name: 'Deutsch', value: 'de' },
@@ -106,9 +105,13 @@ export default {
       }
       this.$router.push({ name: item.to })
     },
-    setLanguage(language) {
-      this.lang = language.name
-      window.location.reload()
+    setLanguage(lang) {
+      // mutate 'locale' in store
+      this.$store.commit('SET_LANG', lang)
+      // re-route to the current page but with the selected language in a query string
+      this.$router.push({
+        path: `${this.$router.currentRoute.path}?lang=${lang}`,
+      })
     },
   },
 }

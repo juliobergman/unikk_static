@@ -1,12 +1,12 @@
 <template>
   <v-app-bar id="vAppBar" flat color="rgba(0,0,0,0)" fixed>
     <v-btn tile icon class="pa-2 my-auto" disabled>
-      <ui-nav-logo />
+      <ui-nav-logo :dark="$store.state.darknavlogo" />
     </v-btn>
     <v-spacer></v-spacer>
 
     <v-btn
-      :dark="darkBtn"
+      :dark="$store.state.darknavmenu"
       class="mr-2"
       icon
       small
@@ -19,9 +19,6 @@
 
 <script>
 export default {
-  data: () => ({
-    darkBtn: true,
-  }),
   methods: {},
 }
 </script>

@@ -19,7 +19,7 @@
         class="welcome-card-text title white--text text-center mt-3 pa-0"
         style="opacity: 0.8"
       >
-        {{ $t('slogan') }}
+        {{ $t('index.slogan') }}
       </v-card-text>
     </v-card>
 
@@ -39,8 +39,21 @@
 
 <script>
 export default {
+  meta: {
+    depth: 0,
+  },
   data: () => ({
     iconColor: 'white',
+  }),
+  head: () => ({
+    title: 'Home',
+    // meta: [
+    //   {
+    //     hid: 'description',
+    //     name: 'description',
+    //     content: 'My custom description',
+    //   },
+    // ],
   }),
   methods: {},
 }

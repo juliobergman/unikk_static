@@ -1,22 +1,39 @@
 {
-  "slogan": "Agile, Impactful, Valuable.",
-  "index": "Home",
-  "about": "About Us",
-  "about-1": "Unikk Ventures AG is a private investment firm incorporated in the Municipality of Baar, Canton of Zug, Switzerland. The direct investment approach prioritizes long-term value creation and entrepreneurial spirit, scalability, and innovation values.",
-  "about-2": "Unikk invests and develops projects of great upside potential, focused on technological newness, scalability, and, social impact creating value to shareholders, partners, and stakeholders. We believe in joint growth and in generating a positive impact on peoples lives through innovation-driven projects and entrepreneurship.",
-  "about-3": "Unikk Ventures AG also promotes the development of new highly scalable technological solutions. We invest and develop projects of great upside potential, focused on technological innovation, scalability, and social impact. We believe that we can create an impact in society, unconditionally supporting philanthropic activities that generate well-being for others.",
-  "investment": "Investment Strategy",
-  "investment-1": "Unikk can participate in both early-stage and growth-stage Projects. our allocation can be developed through direct equity acquisition of common and preferred stocks, limited partnerships, and secondary market operation.",
-  "investment-2": "Our investment strategy combines top-bottom and bottom-up approaches for the allocation of investment budgets in the different asset classes.",
-  "investment-3": "We do not label a fixed percentage of capital to any particular sector. Unikk can react to changing market conditions and dynamically allocate funds to the most valuable investment opportunities across our geographical focus.",
-  "investment-slide-1": "Portfolio of Stocks and Bonds",
-  "investment-slide-2": "Early Stage Investments",
-  "investment-slide-3": "Investment Private Equity",
-  "investment-slide-4": "Cryptocurrencies",
-  "investment-slide-5": "Direct Investment and Coinvesting",
-  "geofocus": "Geographical Focus",
-  "geofocus-1": "We invest mainly in projects developed in North America, Europe, and Asia, however, we are open to investing in great opportunities outside the aforementioned areas as long as they meet the criteria established by the investment committee.",
-  "geofocus-2": "We do not label a fixed percentage of capital to any particular sector. Unikk can react to changing market conditions and dynamically allocate funds to the most valuable investment opportunities across our geographical focus.",
-  "contact": "Contact",
-  "contact-1": "Present your opportunity"
+  "drawer": {
+    "language": "English",
+    "index": "Home",
+    "about": "About Us",
+    "investment": "Investment Strategy",
+    "geofocus": "Geographical Focus",
+    "contact": "Contact"
+  },
+  "index": {
+    "title": "This is it",
+    "slogan": "Agile, Impactful, Valuable."
+  },
+  "about": {
+    "title": "About Us",
+    "1": "Unikk Ventures AG is a private investment firm incorporated in the Municipality of Baar, Canton of Zug, Switzerland. The direct investment approach prioritizes long-term value creation and entrepreneurial spirit, scalability, and innovation values.",
+    "2": "Unikk invests and develops projects of great upside potential, focused on technological newness, scalability, and, social impact creating value to shareholders, partners, and stakeholders. We believe in joint growth and in generating a positive impact on peoples lives through innovation-driven projects and entrepreneurship.",
+    "3": "Unikk Ventures AG also promotes the development of new highly scalable technological solutions. We invest and develop projects of great upside potential, focused on technological innovation, scalability, and social impact. We believe that we can create an impact in society, unconditionally supporting philanthropic activities that generate well-being for others."
+  },
+  "investment": {
+    "1": "Unikk can participate in both early-stage and growth-stage Projects. our allocation can be developed through direct equity acquisition of common and preferred stocks, limited partnerships, and secondary market operation.",
+    "2": "Our investment strategy combines top-bottom and bottom-up approaches for the allocation of investment budgets in the different asset classes.",
+    "3": "We do not label a fixed percentage of capital to any particular sector. Unikk can react to changing market conditions and dynamically allocate funds to the most valuable investment opportunities across our geographical focus.",
+    "slide": {
+      "portfolio": "Portfolio of Stocks and Bonds",
+      "early": "Early Stage Investments",
+      "private": "Investment Private Equity",
+      "crypto": "Cryptocurrencies",
+      "direct": "Direct Investment and Coinvesting"
+    }
+  },
+  "geofocus": {
+    "1": "We invest mainly in projects developed in North America, Europe, and Asia, however, we are open to investing in great opportunities outside the aforementioned areas as long as they meet the criteria established by the investment committee.",
+    "2": "We do not label a fixed percentage of capital to any particular sector. Unikk can react to changing market conditions and dynamically allocate funds to the most valuable investment opportunities across our geographical focus."
+  },
+  "contact": {
+    "1": "Present your opportunity"
+  }
 }
