@@ -34,8 +34,17 @@
 export default {
   meta: {
     depth: 1,
-    bar: 2,
   },
+  head: () => ({
+    title: 'About Us',
+    // meta: [
+    //   {
+    //     hid: 'description',
+    //     name: 'description',
+    //     content: 'My custom description',
+    //   },
+    // ],
+  }),
 }
 </script>
 

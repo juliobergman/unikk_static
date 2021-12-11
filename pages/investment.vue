@@ -80,6 +80,16 @@ export default {
       },
     ],
   }),
+  head: () => ({
+    title: 'Investment Strategy',
+    // meta: [
+    //   {
+    //     hid: 'description',
+    //     name: 'description',
+    //     content: 'My custom description',
+    //   },
+    // ],
+  }),
   created() {},
   mounted() {
     window.addEventListener('resize', this.onWindowResize, false)

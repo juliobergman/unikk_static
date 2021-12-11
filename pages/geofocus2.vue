@@ -14,6 +14,16 @@ export default {
   meta: {
     depth: 4,
   },
+  head: () => ({
+    title: 'Geographical Focus',
+    // meta: [
+    //   {
+    //     hid: 'description',
+    //     name: 'description',
+    //     content: 'My custom description',
+    //   },
+    // ],
+  }),
 }
 </script>
 
