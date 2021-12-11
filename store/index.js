@@ -19,6 +19,9 @@ export const mutations = {
     // eslint-disable-next-line unicorn/prefer-includes
     if (state.locales.indexOf(locale) !== -1) {
       state.locale = locale
+      this.$cookies.set('locale', locale, {
+        path: '/',
+      })
     }
   },
   setDevice(state, value) {

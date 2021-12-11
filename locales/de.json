@@ -1,19 +1,42 @@
 {
-  "language": "Deutsch",
-  "slogan": "Agil, Wirkungsvoll, Wertvoll.",
-  "index": "Heim",
-  "about": "Über uns",
-  "about-1": "Unikk Ventures AG ist eine private Investmentgesellschaft mit Sitz in der Gemeinde Baar, Kanton Zug, Schweiz. Der Direktinvestitionsansatz priorisiert langfristige Wertschöpfung und Unternehmergeist, Skalierbarkeit und Innovationswerte. Unsere Anlagen gliedern sich in die vier folgenden Anlageklassen: Aktien und Unternehmensanleihen Private Equity durch Kommanditgesellschaften und Direktanlagen, Alternative Anlagen und Kryptowährungen.",
-  "about-2": "Darüber hinaus Unikk Ventures AG  fördert die Entwicklung neuer hochskalierbarer technologischer Lösungen. Wir investieren und entwickeln Projekte mit großem Aufwärtspotenzial, die auf technologische Innovation, Skalierbarkeit und soziale Auswirkungen ausgerichtet sind. Wir glauben, dass wir in der Gesellschaft etwas bewirken können, indem wir philanthropische Aktivitäten bedingungslos unterstützen, die dem Wohlergehen Mitmensch dienen.",
-  "investment": "Anlagestrategie",
-  "investment-1": "Unsere Anlagestrategie kombiniert Top-Bottom- und Bottom-up-Ansätze zur Allokation der Anlagebudgets in die verschiedenen Anlageklassen.",
-  "investment-slide-1": "Portfolio von Aktien und Anleihen",
-  "investment-slide-2": "Frühphaseninvestitionen (VC)",
-  "investment-slide-3": "Investition Private Equity",
-  "investment-slide-4": "Kryptowährungen",
-  "investment-slide-5": "Direkte Investition",
-  "geofocus": "Geografischer Schwerpunkt",
-  "geofocus-2": "Wir investieren hauptsächlich in Projekte, die in Nordamerika, Europa und Asien entwickelt wurden, sind jedoch offen für Investitionen in großartige Gelegenheiten außerhalb der oben genannten Bereiche, solange sie die vom Anlageausschuss festgelegten Kriterien erfüllen.",
-  "contact": "Kontakt",
-  "contact-1": "Präsentieren Sie Ihre Chance"
+  "drawer": {
+    "language": "Deutsch",
+    "index": "Home",
+    "about": "Über uns",
+    "investment": "Anlagestrategie",
+    "geofocus": "Geografischer Schwerpunkt",
+    "contact": "Kontakt"
+  },
+  "index": {
+    "title": "Home",
+    "slogan": "Agile, Impactful, Valuable."
+  },
+  "about": {
+    "title": "Über uns",
+    "1": "Unikk Ventures AG ist eine private Investmentgesellschaft mit Sitz in der Gemeinde Baar, Kanton Zug, Schweiz. Der Direktinvestitionsansatz priorisiert langfristige Wertschöpfung und Unternehmergeist, Skalierbarkeit und Innovationswerte.",
+    "2": "Unikk investiert und entwickelt Projekte mit großem Aufwärtspotenzial, die sich auf technologische Neuheit, Skalierbarkeit und soziale Auswirkungen konzentrieren, die einen Mehrwert für Aktionäre, Partner und Stakeholders schaffen. Wir glauben an gemeinsames Wachstum und daran, durch innovationsgetriebene Projekte und Unternehmertum einen positiven Einfluss auf das Leben der Menschen zu erzielen",
+    "3": "Darüber hinaus Unikk Ventures AG  fördert die Entwicklung neuer hochskalierbarer technologischer Lösungen. Wir investieren und entwickeln Projekte mit großem Aufwärtspotenzial, die auf technologische Innovation, Skalierbarkeit und soziale Auswirkungen ausgerichtet sind. Wir glauben, dass wir in der Gesellschaft etwas bewirken können, indem wir philanthropische Aktivitäten bedingungslos unterstützen, die dem Wohlergehen Mitmensch dienen."
+  },
+  "investment": {
+    "title": "Anlagestrategie",
+    "1": "Unikk kann sowohl an Earlystage- als auch an Wachstumsphasenprojekten teilnehmen. Unsere Allokation kann durch den direkten Aktienerwerb von Stamm- und Vorzugsaktien, Kommanditgesellschaften und Sekundärmarktoperationen entwickelt werden.",
+    "2": "Unsere Anlagestrategie kombiniert Top-Bottom- und Bottom-up-Ansätze zur Allokation der Anlagebudgets in die verschiedenen Anlageklassen.",
+    "3": "Wir weisen keinem bestimmten Sektor einen festen Prozentsatz des Kapitals zu. Unikk kann auf sich ändernde Marktbedingungen reagieren und Mittel dynamisch den wertvollsten Anlagemöglichkeiten in unserem geografischen Fokus zuteilen.",
+    "slide": {
+      "portfolio": "Portfolio von Aktien und Anleihen.",
+      "early": "Frühphaseninvestitionen (VC).",
+      "private": "Investition Private Equity.",
+      "crypto": "Kryptowährungen.",
+      "direct": "Direkte Investition."
+    }
+  },
+  "geofocus": {
+    "title": "Geografischer Schwerpunkt",
+    "1": "Wir investieren hauptsächlich in Projekte, die in Nordamerika, Europa und Asien entwickelt wurden, sind jedoch offen für Investitionen in großartige Gelegenheiten außerhalb der oben genannten Bereiche, solange sie die vom Anlageausschuss festgelegten Kriterien erfüllen.",
+    "2": "Wir weisen keinem bestimmten Sektor einen festen Prozentsatz des Kapitals zu. Unikk kann auf sich ändernde Marktbedingungen reagieren und Mittel dynamisch den wertvollsten Anlagemöglichkeiten in unserem geografischen Fokus zuteilen."
+  },
+  "contact": {
+    "title": "Contact",
+    "1": "Präsentieren Sie Ihre Chance"
+  }
 }
