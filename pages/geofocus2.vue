@@ -1,6 +1,6 @@
 <template>
   <div class="main-container fill-height pa-0 ma-0">
-    <asset-earth />
+    <three-earth />
     <div
       class="content text-subtitle-2 text-md-h4 white--text mt-auto mb-16 mx-auto mb-md-16 mx-0 pa-5 pa-md-16"
     >
