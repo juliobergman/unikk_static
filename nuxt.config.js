@@ -32,17 +32,17 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    '~/node_modules/@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
+    '~/node_modules/@nuxtjs/vuetify',
   ],
   ssr: true,
   target: 'server',
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    'cookie-universal-nuxt',
+    '~/node_modules/@nuxtjs/axios',
+    '~/node_modules/cookie-universal-nuxt',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -80,10 +80,10 @@ export default {
   build: {
     loaders: {
       sass: {
-        implementation: require('sass'),
+        implementation: require('./node_modules/sass'),
       },
       scss: {
-        implementation: require('sass'),
+        implementation: require('./node_modules/sass'),
       },
     },
     babel: {
