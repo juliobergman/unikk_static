@@ -19,22 +19,20 @@ import lensFlare3 from '@/assets/tex/lensflare3.png'
 
 export default {
   name: 'Earth',
-  data() {
-    return {
-      camera: null,
-      scene: null,
-      renderer: null,
-      controls: null,
-      clock: null,
-      geometry: null,
-      meshPlanet: null,
-      meshClouds: null,
-      radius: 50,
-      tilt: 0.21,
-      rotationSpeed: 0.0009,
-      cloudsScale: 1.005,
-    }
-  },
+  data: () => ({
+    camera: null,
+    scene: null,
+    renderer: null,
+    controls: null,
+    clock: null,
+    geometry: null,
+    meshPlanet: null,
+    meshClouds: null,
+    radius: 50,
+    tilt: 0.21,
+    rotationSpeed: 0.0009,
+    cloudsScale: 1.005,
+  }),
   mounted() {
     this.init()
     this.animate()
