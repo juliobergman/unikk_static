@@ -36,8 +36,8 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '~/node_modules/@nuxtjs/vuetify',
   ],
-  ssr: true,
-  target: 'server',
+  ssr: false,
+  target: 'static',
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
