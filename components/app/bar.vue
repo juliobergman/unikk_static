@@ -1,7 +1,7 @@
 <template>
   <v-app-bar id="vAppBar" flat color="rgba(0,0,0,0)" fixed>
-    <v-btn tile icon class="pa-2 my-auto" disabled>
-      <ui-nav-logo :dark="$store.state.darknavlogo" />
+    <v-btn tile icon to="/" class="pa-2 my-auto">
+      <ui-nav-logo :dark="$store.state.darknavlogo" style="max-height: 36px" />
     </v-btn>
     <v-spacer></v-spacer>
 
