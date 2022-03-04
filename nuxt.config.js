@@ -21,7 +21,12 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['plugins/i18n.js', 'plugins/bus.js', 'plugins/device.server.js'],
+  plugins: [
+    'plugins/i18n.js',
+    'plugins/bus.js',
+    'plugins/device.server.js',
+    'plugins/gsap.js',
+  ],
   router: {
     middleware: ['i18n', 'navigator'],
   },
@@ -89,6 +94,6 @@ export default {
     babel: {
       compact: true,
     },
-    transpile: ['three'],
+    transpile: ['three', 'gsap'],
   },
 }

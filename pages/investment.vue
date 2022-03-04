@@ -13,17 +13,7 @@
       <div class="text-body-1 text-md-h5 mb-7 mb-md-14">
         {{ $t('investment.1') }}
       </div>
-      <div
-        id="darkblock"
-        class="text-body-1 text-md-h5 grey darken-4 white--text pa-7 pa-md-9"
-      >
-        {{ $t('investment.2') }}
-      </div>
-      <div
-        id="nextblock"
-        :style="'margin-top: ' + posTop + 'px;'"
-        class="text-body-1 text-md-h5 mb-7 mb-md-14"
-      >
+      <div id="nextblock" class="text-body-1 text-md-h5 mb-7 mb-md-14">
         {{ $t('investment.3') }}
       </div>
       <v-card flat>
@@ -39,6 +29,12 @@
           </v-list-item>
         </v-list>
       </v-card>
+      <div
+        id="darkblock"
+        class="text-body-1 text-md-h5 grey darken-4 white--text pa-7 pa-md-9"
+      >
+        {{ $t('investment.2') }}
+      </div>
     </v-col>
     <v-col order="0" order-md="0" cols="12" md="3">
       <v-img
@@ -90,24 +86,13 @@ export default {
     //   },
     // ],
   }),
-  created() {},
-  mounted() {
-    window.addEventListener('resize', this.onWindowResize, false)
-    this.onWindowResize()
-  },
-  methods: {
-    onWindowResize() {
-      const margin = this.$store.state.device.isMobile ? 28 : 56
-      this.posTop =
-        document.getElementById('darkblock').clientHeight + margin * 2
-    },
-  },
 }
 </script>
 
 <style scoped>
 #darkblock {
   position: absolute;
+  margin-top: 56px;
   left: 0px;
   width: 100vw;
   z-index: 1;

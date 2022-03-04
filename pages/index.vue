@@ -13,7 +13,7 @@
       min-width="200px"
       width="50vw"
     >
-      <ui-logo :fill="iconColor"></ui-logo>
+      <ui-anim-logo></ui-anim-logo>
 
       <v-card-text
         class="welcome-card-text title white--text text-center mt-3 pa-0"
